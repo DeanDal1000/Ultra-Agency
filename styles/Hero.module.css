@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  height: calc(100vh - 70px);
+  width: 100%;
+}
+
+.card {
+  flex: 1;
+  padding: 100px;
+  padding-right: 0;
+  justify-content: space-around;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+
+.title {
+  font-size: 50px;
+  margin: 0;
+}
+
+.brand {
+  color: darkgreen;
+}
+
+.desc {
+  font-size: 20px;
+  color: black;
+  margin: 0;
+}
+
+.button {
+  color: black;
+  background-color: darkgreen;
+  border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+  padding: 20px;
+  font-style: bold;
+  font-size: 15px;
+}
+
+.image {
+  background: ('img/hero1.png') right no-repeat;
+}
