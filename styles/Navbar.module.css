@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  background-color: black;
+  padding: 0 100px;
+  height: 50px;
+  color: aliceblue;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
