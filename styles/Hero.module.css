@@ -2,21 +2,28 @@
   display: flex;
   height: calc(100vh - 70px);
   width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
 }
 
 .card {
   flex: 1;
   padding: 100px;
   padding-right: 0;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   flex-direction: column;
   display: flex;
   position: relative;
+  background-color: black;
 }
 
 .title {
   font-size: 50px;
   margin: 0;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .brand {
@@ -27,6 +34,13 @@
   font-size: 20px;
   color: black;
   margin: 0;
+  margin-bottom: 100px;
+  color: #fff;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  margin-right: 1rem;
+  line-height: 2rem;
+  justify-content: center;
 }
 
 .button {

@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from '../styles/Hero.module.css';
 import Image from 'next/image';
+import Circle from './Circle';
 
 const Hero = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.card}>
+      <Circle backgroundColor="#fff" top="-50vh" left="-50vh" />
+
+      <div className={styles.card} backgroundColor="black">
         <h1 className={styles.title}>
           <span className={styles.brand}>PANDA </span>Digital marketing agency
         </h1>
