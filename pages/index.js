@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Services from '../components/Services';
 import styles from '../styles/Home.module.css';
 import { data } from '../data';
+import Testimonials from '../components/Testimonials';
 
 export default function Home({ services }) {
   console.log(services);
@@ -15,6 +16,7 @@ export default function Home({ services }) {
       </Head>
       <Hero />
       <Services services={services} />
+      <Testimonials />
     </div>
   );
 }
