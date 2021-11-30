@@ -109,9 +109,28 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
+@media screen and (max-width: 480px) {
+  .container {
     flex-direction: column;
+  }
+
+  .circle1 {
+    right: -50vh;
+    bottom: -50vh;
+  }
+
+  .card {
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .desc {
+    display: none;
   }
 }

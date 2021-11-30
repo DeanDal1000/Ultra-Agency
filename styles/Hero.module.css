@@ -27,7 +27,7 @@
 }
 
 .brand {
-  color: darkgreen;
+  color: white;
 }
 
 .desc {
@@ -45,15 +45,32 @@
 
 .button {
   color: black;
-  background-color: darkgreen;
+  text-transform: uppercase;
+  background-color: white;
   border-radius: 10px;
-  width: 100px;
+  width: 150px;
   cursor: pointer;
   padding: 20px;
   font-style: bold;
   font-size: 15px;
 }
 
-.image {
-  background: ('img/hero1.png') right no-repeat;
+@media screen and(max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .desc {
+    display: none;
+  }
+  .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
 }

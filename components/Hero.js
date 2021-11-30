@@ -23,8 +23,6 @@ const Hero = () => {
         <Image
           className={styles.img}
           src="/img/hero3.jpg"
-          height="100%"
-          width="100%"
           layout="fill"
           alt="Hero"
         />
