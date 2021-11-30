@@ -19,7 +19,7 @@ const Navbar = () => {
         <Link href="/products/photography">
           <li className={styles.list_item}>Photography</li>
         </Link>
-        <Link href="/products/contact">
+        <Link href="/contact">
           <li className={styles.list_item}>Contact</li>
         </Link>
       </ul>
